@@ -1,0 +1,92 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+picture{
+  display: grid;
+  max-width: 2000px;
+  margin: auto;
+  grid-gap: 20px;
+  grid-template-areas: "image1 image2 image3"
+                       "image4 image5 image6";
+                       
+  grid-template-rows: 500px 500px;
+  grid-template-columns: 400px 400px 400px;
+}
+
+.image1{
+  grid-area: image1;
+}
+
+.image2{
+  grid-area: image2;
+}
+
+.image3{
+  grid-area: image3;
+}
+
+.image4{
+  grid-area: image4;
+}
+
+.image5{
+  grid-area: image5;
+}
+
+.image6{
+  grid-area: image6;
+}
+
+input[type=text], input[type=number]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.home-image{
+  display: block;
+  margin: auto;
+  width: 1790px;
+  height: 700px
+}

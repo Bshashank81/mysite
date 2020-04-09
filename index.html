@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment Html Site</title>
+	<script src="scripts/tabs.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<h1>My HTML various tabs</h1>
+	</header>
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event,'Home')">Home</button>
+		<button class="tablinks" onclick="openTab(event,'About')">About</button>
+		<button class="tablinks" onclick="openTab(event,'Contact')">Contact</button>
+		<button class="tablinks" onclick="openTab(event,'Photos')">Photos</button>
+	</div>
+	<div id="Home" class="tabcontent">
+		<h2>Home page</h2>
+		<img src="images/home2.jpg" class="home-image">
+	</div>
+	<div id="About" class="tabcontent">
+		<h2>About Me</h2>
+		<p>This is shashank balabhadra</p>
+	</div>
+	<div id="Contact" class="tabcontent">
+		<h2>Contact details of me</h2>
+		
+		<form>
+			<table width="450">
+				<tbody>
+					<tr>
+						<td>First Name</td>
+						<td>:</td>
+						<td><input type="text" name="firstname" value="shashank"></td>
+					</tr>
+					<tr>
+						<td>Last Name</td>
+						<td>:</td>
+						<td><input type="text" name="lastname" value="balabhadra"></td>
+					</tr>
+					<tr>
+						<td>Phone</td>
+						<td>:</td>
+						<td><input type="text" name="phone" value="7997064795"></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>:</td>
+						<td><input type="text" name="email" value="shashank.balabhadra@gmail.com"></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+
+	</div>
+	<div id="Photos" class="tabcontent">
+		<h2>Various photos of shashank</h2>
+		<p>few of my photos</p>
+		<picture>
+			<img class="image1" src="images/image1.jpg">
+			<img class="image2" src="images/image2.jpg">
+			<img class="image3" src="images/image3.jpg">
+			<img class="image4" src="images/image4.jpg">
+			<img class="image5" src="images/image5.jpg">
+			<img class="image6" src="images/image6.jpg">
+		</picture>
+	</div>
+
+
+
+</body>
+</html>
